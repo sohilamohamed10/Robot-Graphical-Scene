@@ -233,7 +233,7 @@ void initRendering(const char* floorname, GLuint textureId){
 	glEnable(GL_DEPTH_TEST);
 }
 ```
-### * applied depth buffer because more than one object is now in scene and applied material properties 
+### * Applied depth buffer because more than one object is now in scene and applied material properties 
  ```
     GLfloat mat_amb_diff[] = { 0.0, 0.0, 1.0, 1.0 };
     GLfloat mat_specular[] = { 0.0, 0.0, 0.0, 1.0 };
